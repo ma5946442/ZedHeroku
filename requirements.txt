@@ -71,4 +71,5 @@ vcsi
 wand
 wikipedia
 youtube_dl
+youtube-search
 youtube-search-python==1.4.9
