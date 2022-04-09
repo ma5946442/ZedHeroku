@@ -28,7 +28,7 @@
       "value": ""
     },
     "ENV": {
-      "description": "خليـها ANYTHING",
+      "description": "خليها كمـا هـي اضغط /skip للتخطـي",
       "value": "ANYTHING"
     },
     "TG_BOT_USERNAME": {
@@ -40,7 +40,7 @@
       "value": ""
     },
     "COMMAND_HAND_LER": {
-      "description": "اشارة الامر ادخـل نقطـه . ",
+      "description": "نقطـة الاوامـر خليها كمـا هـي اضغط /skip للتخطـي",
       "value": ".",
       "required": false
     },
@@ -50,13 +50,23 @@
       "required": false
     },
     "HEROKU_API_KEY": {
-      "description": "هيروكو ابي كي تنسخ الرابط وتفتح صفحه جديده وتروح ع آخر مربع وتلصقه هون تحت  https://dashboard.heroku.com/account",
+      "description": "كود هيروكو Api تروح للرابـط  https://dashboard.heroku.com/account وتروح ع آخر مربـع وتنسخـه الكـود وترسـله هنـا للبـوت",
       "value": "",
       "required": false
     },
     "HEROKU_APP_NAME": {
       "description": "اسم التطبيق ( خلي نفس اسم اول مربع فـوق وبالانكلـش وحروف كلهـا صغيره مو كبيره)",
       "value": "",
+      "required": false
+    },
+    "TZ": {
+      "description": "المنطقـه الزمنيـه خليها كمـا هـي اضغط /skip للتخطـي",
+      "value": "Asia/Baghdad",
+      "required": false
+    },
+    "UPSTREAM_REPO": {
+      "description": "رمـز السـورس لا تغيرهـا ابـد اضغط /skip للتخطـي",
+      "value": "zed",
       "required": false
     }
   },
